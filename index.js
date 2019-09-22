@@ -12,6 +12,8 @@ app.engine('.hbs', exphbs({
 
 app.set('view engine', '.hbs');
 app.set('views', path.join(__dirname, 'views'));
+const publicPath = path.join(__dirname, 'views/layouts');
+app.use('/', express.static(publicPath));
 app.listen(port);
 console.log(`Server listen on http://localhost:${port}`);
 
