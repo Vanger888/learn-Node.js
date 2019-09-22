@@ -1,0 +1,27 @@
+{
+  "name": "learn-node.js",
+  "version": "1.0.0",
+  "description": "Rep for learning node.js",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vanger888/learn-Node.js.git"
+  },
+  "author": "Serhii Trotsenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vanger888/learn-Node.js/issues"
+  },
+  "homepage": "https://github.com/Vanger888/learn-Node.js#readme"
+}
