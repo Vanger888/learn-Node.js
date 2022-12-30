@@ -9,7 +9,7 @@
     "lodash": "^4.17.15"
   },
   "devDependencies": {
-    "mocha": "^6.2.0"
+    "mocha": "^10.2.0"
   },
   "scripts": {
     "start": "node index.js",
